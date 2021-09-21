@@ -2,8 +2,9 @@
     background-color: #f0f0f7;
     height: 80.35vh;
     overflow-x: hidden;
-   
-    
+    position: absolute;
+    top: 10%;
+    left: 0%;
 }
 .customername{
     display: flex;
