@@ -1,7 +1,9 @@
 .customerdiv{
-    background-color: #f0f0f7;
-    height: 80.35vh;
+    background-color: #eeeeee;
+    max-height: 80%;
+    width: 100%;
     overflow-x: hidden;
+   
     position: absolute;
     top: 10%;
     left: 0%;
@@ -12,6 +14,7 @@
     justify-content: space-between;
    
     margin-top: 2rem;
+    margin-left: 3.6em;
 }
 .customerName{
     margin-left: 5rem;
@@ -30,22 +33,22 @@
 }
 .inputSearchBox{
    
-    margin-right: 10%;
+    margin-right: 8.9%;
     width: 27rem;
+    margin-bottom: 2em;
 }
 .comment{
- 
-  flex-direction: column;
-    background-color: #f0f0f7;
-    width: 82%;
+   width: 70em;
    
-    margin-left: 5rem;
-    columns: 2 auto;
-    margin-top: 1rem;
+   display: grid;
+   grid-template-columns: auto auto;
+   overflow: scroll;
+   margin: auto auto;
+   margin-left: 9em;
+   overflow: hidden;
+   
      
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    
       
     
 
@@ -54,13 +57,13 @@
  
     flex-direction: column;
       background-color: #f0f0f7;
-      width: 82%;
+      width: 90%;
       margin-left: 5rem;
       
       display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
     grid-gap: 20px;
-      margin-top: 1rem;
+    margin-top: 1rem;
       
   
   }
@@ -316,8 +319,8 @@ margin-top: 8%;
   .footerbar{
     display: flex;
     flex-direction: row;
-    position: absolute;
+    position: fixed;
     top: 93%;
-    left: 62%;
+    left: 70.5%;
   }
-  
+/* ==================================================================== */

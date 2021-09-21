@@ -129,7 +129,7 @@ const filteritem = (e) => {
 }
 
     return (
-        <div className='customerdiv'>
+        <div  className='customerdiv'>
             <div className='customername'>
                                 <div className='customerName'>Customers</div>
                                     <CustomerSearchButton
@@ -141,7 +141,7 @@ const filteritem = (e) => {
              </div>    
          {isopen?<CustomerModel getChange={getChange} value={name} closebutton={closebutton}/>:
          
-         <div className='comment'>
+         <div className='comment' >
              <CustomerCard darci ={Darci}  newArray={newArray} openmodel={openmodel} cancelButtonClick={cancelButtonClick}/>
          </div>
             }
