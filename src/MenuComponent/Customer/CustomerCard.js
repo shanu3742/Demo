@@ -7,6 +7,7 @@ import { CustomerCardFooter } from './CustomerCardFooter';
 export const CustomerCard = ({newArray,openmodel,cancelButtonClick}) => {
     return (
         <>
+        
         {newArray.map((el) => {
             return(
                 <>
@@ -44,6 +45,7 @@ export const CustomerCard = ({newArray,openmodel,cancelButtonClick}) => {
                 </>
             )
         })}
+        
         </>
        
     )
