@@ -2,6 +2,8 @@
     background-color: #f0f0f7;
     height: 80.35vh;
     overflow-x: hidden;
+   
+    
 }
 .customername{
     display: flex;
@@ -9,6 +11,8 @@
     justify-content: space-between;
    
     margin-top: 2rem;
+  /* background-color: red; */
+
 }
 .customerName{
     margin-left: 5rem;
@@ -24,11 +28,13 @@
   line-height: 1.43;
   letter-spacing: normal;
   text-align: left;
+  
 }
 .inputSearchBox{
    
     margin-right: 10%;
     width: 27rem;
+   
 }
 .comment{
  
@@ -178,7 +184,7 @@
 .mobilenumber{
     
   opacity: 0.5;
-  font-family: SourceSansPro;
+  font-family: 'SourceSansPro-Regular', sans-serif;
   font-size: 15px;
   font-weight: normal;
   font-stretch: normal;

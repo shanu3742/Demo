@@ -1,7 +1,7 @@
 import React from 'react';
 import Component2 from './Component/Component2';
 
- //Login and signup page import
+ 
 
 // import './index.css'
 // import './App.css';
@@ -16,7 +16,7 @@ import Component2 from './Component/Component2';
 function App() {
 
 
-  // const [signUpClicked,setSignUpClicked] = React.useState(false)
+  const [signUpClicked,setSignUpClicked] = React.useState(false)
  
 
   return (
