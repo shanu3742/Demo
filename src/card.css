@@ -2,11 +2,11 @@ body{
     margin: 0%;
     padding: 0%;
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
     background-color:#f0f0f7;
     position: absolute;
     overflow-x: hidden;
-    overflow-y: hidden;
+    
     
     
    
@@ -15,10 +15,10 @@ body{
     margin: 0%;
     padding: 0%;
     width: 84vw;
-    height: 100vh;
+    height: 150vh;
     background-color:#f0f0f7 ;
     position: relative;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
    
   }
   .craddir{

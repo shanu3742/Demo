@@ -6,3 +6,16 @@
     left: 0%;
     top: 10%;
 }
+
+.dbContainer .dbOverViewMaindiv{
+    width: 20%;
+    background-color: white;
+    height: 15%;
+}
+
+.dbContainer .dbOverViewGraphMaindiv{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
