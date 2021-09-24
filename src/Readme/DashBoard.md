@@ -22,6 +22,7 @@ Example `DashBoardNavbarButtonClicked` or `DashBoardNavbarInputChange`
  - Recharts library used for vizuvalization 
  - for map vizuvalization map library
  - Discuss infragistics library with karthik
+ - google map charts
  ## Domine discussion
  - wrangler 
  - netlify (https://www.youtube.com/watch?v=Ey_90l9GaAw)

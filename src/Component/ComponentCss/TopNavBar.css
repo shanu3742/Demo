@@ -1,11 +1,11 @@
 .topnav-fixed{
-  width: 100%;
+  width: 85.5%;
   height: 10%;
   background-color: white;
    font-family: 'SourceSansPro-Regular', sans-serif;
-   position: absolute;
+   position: fixed;
    top: 0%;
-   left: 0%;
+   left: 15%;
    z-index: 10;
    display: flex;
    flex-direction: row;

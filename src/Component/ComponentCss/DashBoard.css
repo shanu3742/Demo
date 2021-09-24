@@ -1,16 +1,53 @@
-.dbContainer{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(184, 184, 184);
-    position: relative;
-    left: 0%;
-    top: 10%;
+.dbOverViewTitle{
+    position: absolute;
+    top: 14%;
+    left: 8.5%;
+    font-size: 2em;
+    
 }
 
+.dbContainer{
+    width: 95%;
+    max-height: 70%;
+    min-height: 85%;
+    background-color: #f0f0f7;
+    position: relative;
+    left: 2%;
+    top: 23%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0em 0em;
+   
+}
+
+
+
 .dbContainer .dbOverViewMaindiv{
-    width: 20%;
+    width: 20em;
     background-color: white;
-    height: 15%;
+    height: 6em;
+    padding: 1% 8%;
+}
+.dbContainer .dbOverViewMaindiv .dbOverViewLabel{
+    color: rgb(179, 177, 177);
+    margin-top: 2%;
+}
+.dbContainer .dbOverViewMaindiv .dbValue{
+    font-weight: bolder;
+    margin-top: 5%;
+    padding-left: 1%;
+    
+    
+}
+
+.dbContainer  .dbOverViewGraphMaindiv .dbOverViewRating{
+    
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 8%;
+    margin-left: 1%;
+
 }
 
 .dbContainer .dbOverViewGraphMaindiv{
@@ -18,4 +55,17 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: -20px;
+    
 }
+.dbOverviewContainer{
+    margin-top: 2%;
+   
+}
+.dbContainer .dbTable{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+

@@ -1,15 +1,21 @@
 import React from 'react'
+ import LabelGraph from '../DashBoard/Graphs/labelGraph'
 
-export const DashBoardOverView = ({title,value,rating,color}) => {
+export const DashBoardOverView = ({title,value,rating, graphColor ,color}) => {
+  //  console.log(graphColor)
     return (
+        <>
+     <div className = {'dbOverviewContainer'} > 
         <div className='dbOverViewMaindiv'>
-            <h6>{title}</h6>
-            <div>{value}</div>
+            <div className={"dbOverViewLabel"} >{title}</div>
+            <div className={"dbValue"} >{value}</div>
             <div className='dbOverViewGraphMaindiv'>
-                <div>{rating}</div>
-                <div>Graph</div>
+                <div style ={{color : color}} className={"dbOverViewRating"}>{rating}</div>
+                <div className ='dbOverviewGraph'><LabelGraph  graphcolor ={graphColor} /></div>
             </div>
-
         </div>
+    </div>
+    
+    </>
     )
 }

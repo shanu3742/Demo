@@ -112,7 +112,7 @@ export const Component2 = () => {
     return (
         <div  className='Component2div'>
          <Navbar navBarData ={navBarData}  SetMenubuttonClicked={SetMenubuttonClicked}/>
-          <div className='menudiv'>
+          <div  className='menudiv'>
               <>
               <TopNavBar />
               {menuButtonClicked}
