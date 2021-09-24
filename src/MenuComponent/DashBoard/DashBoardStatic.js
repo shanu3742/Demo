@@ -234,7 +234,7 @@ console.log(dashArray)
   
    
     return (
-        <div className='dbStatic'>
+        <div className ='dbAreaChart'>
          <div className='dbStatticheading'>
              <div>Statistics</div>
              <InputPicker placeholder={'last 6 month'} data={data} style={{ width:150 }}  onSelect={getSelected} onClean={getClose} />
