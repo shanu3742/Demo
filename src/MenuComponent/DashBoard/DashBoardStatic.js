@@ -189,6 +189,45 @@ const oData = [
     
     setDashInput(el)
 }
+const getClose = () => {
+  setDashArray([{
+    "name": "Jan",
+    "Products sold": 4000,
+    "Total views": 2400,
+    "amt": 2400
+  },
+  {
+    "name": "Feb",
+    "Products sold": 3000,
+    "Total views": 1398,
+    "amt": 2210
+  },
+  {
+    "name": "Mar",
+    "Products sold": 2000,
+    "Total views": 9800,
+    "amt": 2290
+  },
+  {
+    "name": "Aprl",
+    "Products sold": 2780,
+    "Total views": 3908,
+    "amt": 2000
+  },
+  {
+    "name": "May",
+    "Products sold": 1890,
+    "Total views": 4800,
+    "amt": 2181
+  },
+  {
+    "name": "Jun",
+    "Products sold": 2390,
+    "Total views": 3800,
+    "amt": 2500
+  }])
+
+}
 
 console.log(dashinput)
 console.log(dashArray)
@@ -198,7 +237,7 @@ console.log(dashArray)
         <div className='dbStatic'>
          <div className='dbStatticheading'>
              <div>Statistics</div>
-             <InputPicker placeholder={'last 6 month'} data={data} style={{ width:150 }}  onSelect={getSelected} />
+             <InputPicker placeholder={'last 6 month'} data={data} style={{ width:150 }}  onSelect={getSelected} onClean={getClose} />
 
          </div>
          
