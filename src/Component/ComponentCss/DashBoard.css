@@ -1,21 +1,35 @@
-.dbContainer{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(184, 184, 184);
-    position: relative;
-    left: 0%;
-    top: 10%;
+.dbContainer {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(184, 184, 184);
+  position: relative;
+  left: 0%;
+  top: 10%;
+  font-family: 'SourceSansPro-Regular', sans-serif;
 }
 
-.dbContainer .dbOverViewMaindiv{
-    width: 20%;
-    background-color: white;
-    height: 15%;
+.dbContainer .dbOverViewMaindiv {
+  width: 20%;
+  background-color: white;
+  height: 15%;
 }
 
-.dbContainer .dbOverViewGraphMaindiv{
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.dbContainer .dbOverViewGraphMaindiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dbContainer .dbStatic {
+  width: 80%;
+  height: 60%;
+  margin-left: 9%;
+  margin-top: 1.5rem;
+  background-color: white;
+}
+
+.dbContainer .dbStatic .dbStatticheading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
